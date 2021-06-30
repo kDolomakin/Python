@@ -14,7 +14,13 @@
 ![image](https://user-images.githubusercontent.com/86669822/123943860-35c70a00-d9a5-11eb-946f-c42ff4fbc8b6.png)
 
 Консоль показала що є файл якого немає на "гітхабі", а саме TESTFILEFORDOWNLOAD.docx
-Щоб загрузити цей файл на гітхаб, потрібно ввести таку команду
+
+Щоб загрузити цей файл на гітхаб, потрібно ввести такі команди : 1)"git add TESTFILEFORDOWNLOAD.docx" 
+
+2)"git commit -m TESTFILEFORDOWNLOAD.docx"
+3) "git push" 
+
+![image](https://user-images.githubusercontent.com/86669822/123945347-b9cdc180-d9a6-11eb-911e-3c6f8cd29695.png)
 
 
 # Git SSH-key
