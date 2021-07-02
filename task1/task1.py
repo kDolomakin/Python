@@ -10,7 +10,7 @@ print('String : ' + String)
 for i in range(length):
     j=String[i]
     if '0' <= j <= '9':
-        Numbers+=j + ' '
+        Numbers+=j
         i+=1
     else:
         Words+=j
@@ -36,13 +36,12 @@ for i in range(len(Numbers)):
         continue
 Numbers2=''
 i=0
-index=0
 # Всі числа, окрім найбільшого, записуються в окремий массив, в степені свого індексу
 for i in range(len(Numbers)):
     if '0' <= Numbers[i] <= '9':
          j=int(Numbers[i])
          if j!=MaxNumber:
-              Numbers2+=str(j**index)+' '
+              Numbers2+=str(j**i)+' '
               index+=1
               i+=1
          else:
@@ -53,7 +52,7 @@ for i in range(len(Numbers)):
 print('-'*50)
 # Вивід Максимального значення та чисел після зводження до степеню індексу
 print('Max number : ' + str(MaxNumber))
-print('Numbers x**x without max : ' + Numbers2)
+print('Numbers x**index without max : ' + Numbers2)
 print('-'*50)
 # Тут йде ініціалізація строки, в яку ми будемо записувати слова з першою і останньою буквою в верхньому регістрі
 # l потрібна для того, щоб запам'ятовувати розсташування першої букви слів в рядку
