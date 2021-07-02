@@ -36,12 +36,14 @@ for i in range(len(Numbers)):
         continue
 Numbers2=''
 i=0
+index=0
 # Всі числа, окрім найбільшого, записуються в окремий массив, в степені свого індексу
 for i in range(len(Numbers)):
     if '0' <= Numbers[i] <= '9':
          j=int(Numbers[i])
          if j!=MaxNumber:
-              Numbers2+=str(j**i)+' '
+              Numbers2+=str(j**index)+' '
+              index+=1
               i+=1
          else:
               continue
