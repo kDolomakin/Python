@@ -1,5 +1,5 @@
 print('-'*50)
-# Программа просить ввести строку
+# Программа просить ввести строку 
 String = input("Input your string : ")
 Numbers = ''
 Words = ''
