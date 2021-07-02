@@ -41,7 +41,7 @@ for i in range(len(Numbers)):
     if '0' <= Numbers[i] <= '9':
          j=int(Numbers[i])
          if j!=MaxNumber:
-              Numbers2+=str(j**j)+' '
+              Numbers2+=str(j**i)+' '
               i+=1
          else:
               continue
