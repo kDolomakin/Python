@@ -3,7 +3,7 @@
 
 # Працювання програми
 
-![image](https://user-images.githubusercontent.com/86669822/124268486-3c3eb880-db42-11eb-9364-ce8d7c005829.png)
+![image](https://user-images.githubusercontent.com/86669822/124350956-4e7f2c00-dc00-11eb-90cf-21219157f730.png)
 
 
 
