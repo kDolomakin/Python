@@ -2,6 +2,7 @@ from tkinter import *
 import http.client
 import json
 import tkinter as tk
+
 # Створення вікна
 root = Tk()
 root.title("Covid Status Dolomakin K.")
