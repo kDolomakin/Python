@@ -42,6 +42,10 @@ for i in range(len(Numbers)):
          j=int(Numbers[i])
          if j!=MaxNumber:
               Numbers2+=str(j**i)+' '
+<<<<<<< HEAD
+=======
+              index+=1
+>>>>>>> 1418f95b8b3e47f15144f23dd5945c32e7bae834
               i+=1
          else:
               continue
@@ -51,7 +55,7 @@ for i in range(len(Numbers)):
 print('-'*50)
 # Вивід Максимального значення та чисел після зводження до степеню індексу
 print('Max number : ' + str(MaxNumber))
-print('Numbers x**x without max : ' + Numbers2)
+print('Numbers x**index without max : ' + Numbers2)
 print('-'*50)
 # Тут йде ініціалізація строки, в яку ми будемо записувати слова з першою і останньою буквою в верхньому регістрі
 # l потрібна для того, щоб запам'ятовувати розсташування першої букви слів в рядку
