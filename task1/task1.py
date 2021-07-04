@@ -10,7 +10,7 @@ print('String : ' + String)
 for i in range(length):
     j=String[i]
     if '0' <= j <= '9':
-        Numbers+=j + ' '
+        Numbers+=j
         i+=1
     else:
         Words+=j
@@ -41,7 +41,7 @@ for i in range(len(Numbers)):
     if '0' <= Numbers[i] <= '9':
          j=int(Numbers[i])
          if j!=MaxNumber:
-              Numbers2+=str(j**j)+' '
+              Numbers2+=str(j**i)+' '
               i+=1
          else:
               continue

@@ -11,7 +11,6 @@ root['bg']='black'
 n=20 # Кількість держав, котрі программа візьме з сайту, можна змінити і їх буде більше або меньше
 
 conn = http.client.HTTPSConnection("vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com")
-
 headers = {
     'x-rapidapi-key': "e36cf147d2msh773e180e52d7742p1f4ad1jsnd148121bd4cf",
     'x-rapidapi-host': "vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com"
