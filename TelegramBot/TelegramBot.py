@@ -21,6 +21,7 @@ def start(message):
 @bot.message_handler(commands=['search'])
 def textforsearch(message):
     # Бот просить ввести країну, яку потрібно знайти, після чого передає цю країну в наступну функцію search()
+    keyboard = types.ReplyKeyboardMarkup(True, False)
     send = bot.send_message(message.chat.id, 'Input country', reply_markup=keyboard)
     bot.register_next_step_handler(send, search)
 # Бот реагує на команду /file
