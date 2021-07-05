@@ -20,7 +20,6 @@ headers = {
 conn.request("GET", "/api/npm-covid-data/europe", headers=headers)
 res = conn.getresponse()
 data = res.read()
-print(data)
 All_Info = data.decode("utf-8")
 json = json.loads(All_Info)
 # Фрейми, щоб було удобніше розподілити екран
