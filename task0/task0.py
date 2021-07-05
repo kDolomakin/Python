@@ -1,7 +1,6 @@
 import random
 Array = [random.randint(-100, 100) for i in range(30)]
 MaxNumber = max(Array)
-Array.index(MaxNumber)
 
 print(Array)
 print("Max number is " + str(MaxNumber))
