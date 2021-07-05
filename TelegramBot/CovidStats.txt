@@ -1,0 +1,181 @@
+==============================
+Country : France
+Continent : Europe
+Total Cases : 5786203
+Total Deaths : 111161
+Total Recovered : 5630193
+==============================
+Country : Russia
+Continent : Europe
+Total Cases : 5635294
+Total Deaths : 138579
+Total Recovered : 5083441
+==============================
+Country : UK
+Continent : Europe
+Total Cases : 4903434
+Total Deaths : 128222
+Total Recovered : 4334656
+==============================
+Country : Italy
+Continent : Europe
+Total Cases : 4263317
+Total Deaths : 127649
+Total Recovered : 4091004
+==============================
+Country : Spain
+Continent : Europe
+Total Cases : 3833868
+Total Deaths : 80911
+Total Recovered : 3606789
+==============================
+Country : Germany
+Continent : Europe
+Total Cases : 3738451
+Total Deaths : 91584
+Total Recovered : 3629300
+==============================
+Country : Poland
+Continent : Europe
+Total Cases : 2880308
+Total Deaths : 75085
+Total Recovered : 2652228
+==============================
+Country : Ukraine
+Continent : Europe
+Total Cases : 2237823
+Total Deaths : 52484
+Total Recovered : 2171601
+==============================
+Country : Netherlands
+Continent : Europe
+Total Cases : 1689106
+Total Deaths : 17756
+Total Recovered : 1641643
+==============================
+Country : Czechia
+Continent : Europe
+Total Cases : 1667935
+Total Deaths : 30310
+Total Recovered : 1636178
+==============================
+Country : Sweden
+Continent : Europe
+Total Cases : 1090880
+Total Deaths : 14592
+Total Recovered : 1064620
+==============================
+Country : Belgium
+Continent : Europe
+Total Cases : 1086508
+Total Deaths : 25185
+Total Recovered : 1040178
+==============================
+Country : Romania
+Continent : Europe
+Total Cases : 1080951
+Total Deaths : 33928
+Total Recovered : 1045351
+==============================
+Country : Portugal
+Continent : Europe
+Total Cases : 889088
+Total Deaths : 17112
+Total Recovered : 833852
+==============================
+Country : Hungary
+Continent : Europe
+Total Cases : 808262
+Total Deaths : 29996
+Total Recovered : 740195
+==============================
+Country : Serbia
+Continent : Europe
+Total Cases : 716873
+Total Deaths : 7058
+Total Recovered : 708092
+==============================
+Country : Switzerland
+Continent : Europe
+Total Cases : 703783
+Total Deaths : 10895
+Total Recovered : 686410
+==============================
+Country : Austria
+Continent : Europe
+Total Cases : 650817
+Total Deaths : 10713
+Total Recovered : 638378
+==============================
+Country : Greece
+Continent : Europe
+Total Cases : 425964
+Total Deaths : 12716
+Total Recovered : 405847
+==============================
+Country : Bulgaria
+Continent : Europe
+Total Cases : 422053
+Total Deaths : 18084
+Total Recovered : 395381
+==============================
+Country : Belarus
+Continent : Europe
+Total Cases : 421964
+Total Deaths : 3194
+Total Recovered : 414948
+==============================
+Country : Slovakia
+Continent : Europe
+Total Cases : 391720
+Total Deaths : 12513
+Total Recovered : 378813
+==============================
+Country : Croatia
+Continent : Europe
+Total Cases : 360246
+Total Deaths : 8219
+Total Recovered : 351528
+==============================
+Country : Denmark
+Continent : Europe
+Total Cases : 295317
+Total Deaths : 2537
+Total Recovered : 289066
+==============================
+Country : Lithuania
+Continent : Europe
+Total Cases : 278906
+Total Deaths : 4391
+Total Recovered : 267958
+==============================
+Country : Ireland
+Continent : Europe
+Total Cases : 274306
+Total Deaths : 5000
+Total Recovered : 258720
+==============================
+Country : Slovenia
+Continent : Europe
+Total Cases : 257429
+Total Deaths : 4420
+Total Recovered : 252584
+==============================
+Country : Moldova
+Continent : Europe
+Total Cases : 256970
+Total Deaths : 6196
+Total Recovered : 249936
+==============================
+Country : Bosnia and Herzegovina
+Continent : Europe
+Total Cases : 205047
+Total Deaths : 9667
+Total Recovered : 183663
+==============================
+Country : North Macedonia
+Continent : Europe
+Total Cases : 155710
+Total Deaths : 5486
+Total Recovered : 150073
+==============================
