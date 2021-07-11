@@ -19,32 +19,34 @@ for i in range(length):
         i+=1
 Words+=' '
 print('-'*50)
-print('Numbers : ' + str(Numbers))
+if len(Numbers) == 0:
+    print('0 Numbers in string')
+else:
+    print('Numbers : ' + str(Numbers))
 print('String without numbers : ' + Words)
 i=0
 MaxNumber=0
 # На данному етапі, программа знаходить найбільше число в массиві чисел
-for i in range(len(Numbers)):
-        if Numbers[i]>MaxNumber:
-            MaxNumber=Numbers[i]
-            i+=1
-        else:
-            i+=1
-
-Numbers2=[]
-i=0
+if len(Numbers)!=0:
+    for i in range(len(Numbers)):
+            if Numbers[i]>MaxNumber:
+                MaxNumber=Numbers[i]
+                i+=1
+            else:
+               i+=1   
+    Numbers2=[]
+    i=0
 # Всі числа, окрім найбільшого, записуються в окремий массив, в степені свого індексу
-for i in range(len(Numbers)):
-         if Numbers[i]!=MaxNumber:
-              Numbers2.append(Numbers[i]**i)
-              i+=1
-         else:
-              continue
-
-print('-'*50)
+    for i in range(len(Numbers)):
+             if Numbers[i]!=MaxNumber:
+                  Numbers2.append(Numbers[i]**i)
+                  i+=1
+             else:
+                  continue
+    print('-'*50)
 # Вивід Максимального значення та чисел після зводження до степеню індексу
-print('Max number : ' + str(MaxNumber))
-print('Numbers x**i without max : ' + str(Numbers2))
+    print('Max number : ' + str(MaxNumber))
+    print('Numbers x**i without max : ' + str(Numbers2))
 print('-'*50)
 # Тут йде ініціалізація строки, в яку ми будемо записувати слова з першою і останньою буквою в верхньому регістрі
 # l потрібна для того, щоб запам'ятовувати розсташування першої букви слів в рядку
