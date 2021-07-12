@@ -19,6 +19,7 @@ for i in range(length):
         i+=1
 Words+=' '
 print('-'*50)
+# Якщо в початковій строці немає номерів, то программа видасть інформацію, що 0 номерів,а якщо є то виведе номера
 if len(Numbers) == 0:
     print('0 Numbers in string')
 else:
@@ -26,7 +27,7 @@ else:
 print('String without numbers : ' + Words)
 i=0
 MaxNumber=0
-# На данному етапі, программа знаходить найбільше число в массиві чисел
+# На данному етапі, программа знаходить найбільше число в массиві чисел, якщо номера взагалі є.
 if len(Numbers)!=0:
     for i in range(len(Numbers)):
             if Numbers[i]>MaxNumber:
